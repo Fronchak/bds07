@@ -1,0 +1,13 @@
+.default-btn {
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.8s;
+  color: #FFF;
+  border: 1px solid var(--secondary-color);
+}
+
+.btn.default-btn:hover {
+  color: var(--secondary-color);
+  background-color: #FFF;
+  border: 1px solid var(--secondary-color);
+}

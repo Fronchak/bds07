@@ -7,7 +7,7 @@ const DefaultErrorComponent = () => {
   console.error(error);
 
   return (
-    <div id="error-component" className="text-center third-bg-color p-2 p-md-3 p-lg-4 p-xl-5">
+    <div id="error-component" className="text-center third-bg-color p-2 p-md-3 p-lg-4 p-xl-5 default-card">
       <h1 className="secondary-color">Oops!</h1>
       <p className="secondary-color">Sorry, an unexpected error has occurred.</p>
       <div className="alert alert-danger" role="alert">

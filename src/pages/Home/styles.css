@@ -1,0 +1,24 @@
+#home-card-container {
+  border-radius: 0.8em;
+}
+
+#home-card-container img {
+  width: 90%;
+}
+
+#home-card-container h1 {
+  font-size: 1.5em;
+}
+
+#bottom-home-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6em;
+  border-radius: 0.8em;
+}
+
+#home-button-container {
+  width: 70%;
+}
