@@ -1,7 +1,51 @@
-body {
-  font-family: 'Roboto', sans-serif;
+/* VARIABLES */
+
+:root {
+  --primary-color: #F78B00;
+  --secondary-color: #00285F;
+  --third-color: #EDEDED;
+  --fourth-color: #585858;
+  --background-color: #E5E5E5;
 }
 
-h1 {
-  color: red;
+/* GENERAL */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--background-color);
 }
+
+.color-primary {
+  color: var(--primary-color);
+}
+
+.color-bg-color {
+  background-color: var(--primary-color);
+}
+
+.secondary-color {
+  color: var(--secondary-color);
+}
+
+.secondary-bg-color {
+  background-color: var(--secondary-color);
+}
+
+.third-color {
+  color: var(--third-color);
+}
+
+.third-bg-color {
+  background-color: var(--third-color);
+}
+
+.fourth-color {
+  color: var(--fourth-color);
+}
+
+.fourth-bg-color {
+  background-color: var(--fourth-color);
+}
+
+
+
