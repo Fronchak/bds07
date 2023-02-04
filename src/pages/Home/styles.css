@@ -8,6 +8,7 @@
 
 #home-card-container h1 {
   font-size: 1.5em;
+  font-weight: bold;
 }
 
 #bottom-home-card-container {
@@ -21,4 +22,68 @@
 
 #home-button-container {
   width: 70%;
+}
+
+@media (min-width: 576px) {
+  #home-card-container img {
+    width: 60%;
+  }
+
+  #home-card-container h1 {
+    font-size: 2.5em;
+  }
+
+  #bottom-home-card-container {
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  #bottom-home-card-container * {
+    flex: 1
+  }
+
+  #home-card-container p {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 768px) {
+  #home-button-container {
+    max-width: 200px;
+  }
+
+  #bottom-home-card-container p {
+    text-align: left;
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 992px) {
+  #home-card-container h1 {
+    font-size: 3.5em;
+  }
+
+  #home-card-container p {
+    width: 60%;
+    font-size: 1.8em;
+  } 
+}
+
+@media (min-width: 1400px) {
+  #home-card-container {
+    height: 60vh;
+  }
+  
+  #home-card-container img {
+    width: 100%;
+  }
+
+  #home-card-container p {
+    width: 100%;
+  }
+
+  #bottom-home-card-container {
+    height: 150px;
+  }
 }

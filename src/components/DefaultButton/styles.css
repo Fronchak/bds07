@@ -11,3 +11,18 @@
   background-color: #FFF;
   border: 1px solid var(--secondary-color);
 }
+
+@media (min-width: 992px) {
+  .default-btn {
+    padding: 1em 0.5em;
+    font-size: 1.2em;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .default-btn {
+    padding: 0.8em 0.6em;
+    font-size: 1.3em;
+  }
+}
