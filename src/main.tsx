@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from 'react-router-dom';
+import DefaultErrorPage from './pages/DefaultErrorPage';
 import Root from './pages/Root';
 
 const router = createBrowserRouter(
@@ -8,6 +9,7 @@ const router = createBrowserRouter(
     <Route
       path='/'
       element={ <Root /> }
+      errorElement={ <DefaultErrorPage /> }
     >
 
     </Route>
