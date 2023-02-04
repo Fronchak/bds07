@@ -1,0 +1,28 @@
+#navbar-container a,
+#navbar-container i {
+  color: var(--secondary-color);
+}
+
+#navbar-container a {
+  font-size: 1.2em;
+}
+
+#navbar-container a.active {
+  font-weight: bold;
+}
+
+#navbar-container i {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+#navbar-container .navbar-brand {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
+#navbar-items ul {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
