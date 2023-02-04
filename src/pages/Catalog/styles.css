@@ -1,0 +1,6 @@
+@media (min-width: 992px) {
+  .input-group {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
