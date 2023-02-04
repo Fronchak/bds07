@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider, createRoutesFromElements, Route } from 'react-router-dom';
+import Catalog from './pages/Catalog';
 import DefaultErrorPage from './pages/DefaultErrorPage';
 import Home from './pages/Home';
 import Root from './pages/Root';
@@ -18,6 +19,10 @@ const router = createBrowserRouter(
         <Route
           index={true}
           element={<Home />}
+        ></Route>
+        <Route
+          path='catalog'
+          element={ <Catalog /> }
         ></Route>
       </Route>
     </Route>

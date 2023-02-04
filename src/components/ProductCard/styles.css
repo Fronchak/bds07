@@ -1,0 +1,25 @@
+.product-card .card-img-top {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-card {
+  font-size: 0.8em; 
+}
+
+@media (min-width: 768px) {
+  .product-card h4 {
+    font-size: 1.8em;
+  }
+  
+  .product-card {
+    font-size: 1em; 
+  }
+}
+
+@media (min-width: 992px) {
+  .product-card {
+    font-size: 1.2em; 
+  }
+}

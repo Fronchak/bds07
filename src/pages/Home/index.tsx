@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'; 
 import HomeImage from '../../assets/imgs/home-image.png';
 import DefaultButton from '../../components/DefaultButton';
 import './styles.css';
@@ -16,7 +17,9 @@ const Home = () => {
       </div>
       <div id="bottom-home-card-container" className="third-bg-color p-4 px-sm-5">
         <div id="home-button-container">
-          <DefaultButton text="Ver Catálogo" />
+          <Link to="catalog">
+            <DefaultButton text="Ver Catálogo" />
+          </Link>
         </div>
         <p className="fourth-color mb-0">Comece agora a navegar</p>
       </div>
